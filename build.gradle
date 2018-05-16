@@ -1,0 +1,45 @@
+buildscript {
+
+    ext {
+        kotlin_version = '1.1.1'
+    }
+
+
+    repositories {
+        jcenter()
+        google() // Gradle 4.0+
+        maven { url "https://maven.google.com" } // Gradle < 4.0
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:3.1.2"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion "Google Inc.:Google APIs:22"
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.lycha.example.augmentedreality"
+        minSdkVersion 18
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:22.2.0'
+    implementation 'com.google.android.gms:play-services:8.1.0'
+    implementation 'com.google.android.gms:play-services:7.5.0'
+
+}
