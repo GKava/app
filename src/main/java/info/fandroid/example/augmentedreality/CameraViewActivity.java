@@ -3,30 +3,35 @@ package info.fandroid.example.augmentedreality;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.graphics.Matrix;
 import android.graphics.PixelFormat;
 import android.hardware.Camera;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.location.Location;
 import android.os.Bundle;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
-import android.widget.Button;
+import android.view.animation.Animation;
+import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class CameraViewActivity extends Activity implements
-		SurfaceHolder.Callback, OnLocationChangedListener, OnAzimuthChangedListener, View.OnClickListener {
+		SurfaceHolder.Callback, OnLocationChangedListener, OnAzimuthChangedListener, View.OnClickListener,SensorEventListener {
 	//объявляем необходимые переменные
 	private Camera mCamera;
 	private SurfaceHolder mSurfaceHolder;
 	private boolean isCameraviewOn = false;
-	private Pikachu mPoi;
+	private ArObject mPoi;
 
 	private double mAzimuthReal = 0;
 	private double mAzimuthTeoretical = 0;
@@ -38,43 +43,125 @@ public class CameraViewActivity extends Activity implements
 	private static final double DISTANCE_ACCURACY = 20;
 	private static final double AZIMUTH_ACCURACY = 20;
 
+	// объявляем переменные которые будут содержать информацию и широте и долготе устройства и обнуляем их
 	private double mMyLatitude = 0;
 	private double mMyLongitude = 0;
 
 	/*константы с координатами цели, это будет местоположение AR указателя. */
-	public static double TARGET_LATITUDE = 53.219466;
-	public static double TARGET_LONGITUDE = 44.792290;
+	public static double TARGET_LATITUDE = 53.219446;
+	public static double TARGET_LONGITUDE = 44.792207;
 
 	private MyCurrentAzimuth myCurrentAzimuth;
 	private MyCurrentLocation myCurrentLocation;
 
+	//компас анимация вращения
+	private float RotateDegree = 0f;
+	private SensorManager mSensorManager;
+
 	TextView descriptionTextView;
-	ImageView pointerIcon;
-	Button btnMap;
+	ImageView pointerIcon,imageView, icons_map;
+
+	//переменные с AR объектами
+	private double TargetLatMarA;
+	private double TargetLngMarA;
+
+	private double TargetLatMarB;
+	private double TargetLngMarB;
+
+	private double TargetLatMarC;
+	private double TargetLngMarC;
+
+	private double TargetLatMarD;
+	private double TargetLngMarD;
+
+	private double TargetLatMarE;
+	private double TargetLngMarE;
 
 	// onCreate вызывается при создании или перезапуске активности
 	// Задаём портретную ориентацию активити
-	//1. setupListeners  инициализацирует слушателей местоположения и азимута, ь вызываем конструкторы классов MyCurrentLocation и MyCurrentAzimuth и выполняем их методы start
+	//Инициализируем возможность работать с сенсором устройства:
+	//1. setupListeners  инициализацирует слушателей местоположения и азимута,  вызываем конструкторы классов MyCurrentLocation и MyCurrentAzimuth и выполняем их методы start
 	//2. setupLayout инициализирует все элементы экрана и создает surfaceView для отображения превью камеры
 	//3. Создаем экземпляр метки в дополненной реальности с указанием координат ее местоположения
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_camera_view);
+
+
+		// получение данных точек из активити с картой
+            Intent intent = getIntent();
+            double latMarA = intent.getExtras().getDouble("latMarA");
+            double lngMarA = intent.getExtras().getDouble("lngMarA");
+		    double latMarB = intent.getExtras().getDouble("latMarB");
+		    double lngMarB = intent.getExtras().getDouble("latMarB");
+		    double latMarC = intent.getExtras().getDouble("latMarC");
+		    double lngMarC = intent.getExtras().getDouble("lngMarC");
+		    double latMarD = intent.getExtras().getDouble("latMarD");
+		    double lngMarD = intent.getExtras().getDouble("lngMarD");
+		    double latMarE = intent.getExtras().getDouble("latMarE");
+		    double lngMarE = intent.getExtras().getDouble("lngMarE");
+
+		TargetLatMarA = latMarA;
+		TargetLngMarA = lngMarA;
+		TargetLatMarB = latMarB;
+		TargetLngMarB = lngMarB;
+		TargetLatMarC = latMarC;
+		TargetLngMarC = lngMarC;
+		TargetLatMarD = latMarD;
+		TargetLngMarD = lngMarD;
+		TargetLatMarE = latMarE;
+		TargetLngMarE = lngMarE;
+
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+		mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 		pointerIcon = (ImageView) findViewById(R.id.icon);
-		setupListeners();
-		setupLayout();
+		imageView = (ImageView) findViewById(R.id.imageView);
+		setupListeners(); // подключение к службам
+		setupLayout(); //метод setupLayout инициализирует все элементы экрана и создает surfaceView для отображения превью камеры
 		setAugmentedRealityPoint();
 	}
-	//создаем экземпляр покемона с указанием координат его местоположения
-	private void setAugmentedRealityPoint() {
-		mPoi = new Pikachu(
-				getString(R.string.p_name),
-				TARGET_LATITUDE, TARGET_LONGITUDE
-		);
+
+	//Получаем градус поворота от оси, которая направлена на север, север = 0 градусов:
+	@Override
+	public void onSensorChanged(SensorEvent event) {
+		double rotationAzimuthTeoretical = calculateTeoreticalAzimuth();
+		int rotSen = (int) rotationAzimuthTeoretical;
+		float degree = Math.round(event.values[0]);
+		degree = degree-rotSen;
+		//Создаем анимацию вращения:
+		RotateAnimation rotateAnimation = new RotateAnimation(
+				RotateDegree,
+				-degree,
+				Animation.RELATIVE_TO_SELF, 0.5f,
+				Animation.RELATIVE_TO_SELF,
+				0.5f);
+		//Продолжительность анимации в миллисекундах:
+		rotateAnimation.setDuration(200);
+		//Настраиваем анимацию после завершения подсчетных действий датчика:
+		rotateAnimation.setFillAfter(true);
+		//Запускаем анимацию:
+		imageView.startAnimation(rotateAnimation);
+		RotateDegree = -degree;
 	}
-	/*вычисляем дистанцию между устройством и покемоном по формуле, о которой я говорил в начале урока.
+	//Этот метод необходим для работы датчика сенсора
+	@Override
+	public void onAccuracyChanged(Sensor sensor, int accuracy) {
+	}
+	//создаем экземпляр объекта который будет выводиться в указанной метке на карте с указанием координат его местоположения
+	private void setAugmentedRealityPoint() {
+		mPoi = new ArObject(getString(R.string.ar_obj), TARGET_LATITUDE, TARGET_LONGITUDE);
+
+
+		// сначала точка 1
+		// после точка 2
+		// после точка 3
+
+
+
+
+	}
+	/*вычисляем дистанцию между устройством и объектом по формуле.
         Результат приходит в десятичных градусах, умножение его на 100000 дает некую условную единицу,
         приблизительно равную 0.9м. Чтобы перевести результат в метрическую систему, нужно применять
         сложные расчеты, и я решил не усложнять приложение.*/
@@ -86,7 +173,7 @@ public class CameraViewActivity extends Activity implements
 
 		return distance;
 	}
-	/*вычисляем теоретический азимут по формуле, о которой я говорил в начале урока.
+	/*вычисляем теоретический азимут по формуле.
     Вычисление азимута для разных четвертей производим на основе таблицы. */
 	public double calculateTeoreticalAzimuth() {
 		double dX = mPoi.getPoiLatitude() - mMyLatitude;
@@ -100,13 +187,13 @@ public class CameraViewActivity extends Activity implements
 		phiAngle = Math.atan(tanPhi);
 		phiAngle = Math.toDegrees(phiAngle);
 
-		if (dX > 0 && dY > 0) { // I quater
+		if (dX > 0 && dY > 0) { // I четверть
 			return azimuth = phiAngle;
-		} else if (dX < 0 && dY > 0) { // II
+		} else if (dX < 0 && dY > 0) { // II четверть
 			return azimuth = 180 - phiAngle;
-		} else if (dX < 0 && dY < 0) { // III
+		} else if (dX < 0 && dY < 0) { // III четверть
 			return azimuth = 180 + phiAngle;
-		} else if (dX > 0 && dY < 0) { // IV
+		} else if (dX > 0 && dY < 0) { // IV четверть
 			return azimuth = 360 - phiAngle;
 		}
 
@@ -149,15 +236,17 @@ public class CameraViewActivity extends Activity implements
 		int tAzimut = (int) mAzimuthTeoretical;
 		int rAzimut = (int) mAzimuthReal;
 
-		String text = mPoi.getPoiName()
-				+ " location:"
-				+ "\nlatitude: " + TARGET_LATITUDE + "  longitude: " + TARGET_LONGITUDE
-				+ "\nCurrent location:"
-				+ "\nLatitude: " + mMyLatitude	+ "  Longitude: " + mMyLongitude
+		String text =
+				 "Локация AR объекта:"
+				+ "\nШирота: " + TARGET_LATITUDE + "  Долгота: " + TARGET_LONGITUDE
+				+ "\nТекущая лекация:"
+				+ "\nШирота: " + mMyLatitude	+ "  Долгота: " + mMyLongitude
 				+ "\n"
-				+ "\nTarget azimuth: " + tAzimut
-				+ "\nCurrent azimuth: " + rAzimut
-				+ "\nDistance: " + distance;
+				+ "\nТеоретический: " + tAzimut
+				+ "\nРеальный азимут: " + rAzimut
+				+ "\nДистанция до объекта: " + distance
+				+ "\nMarker A: " + TargetLatMarA+ " "+ TargetLngMarA;
+
 
 		descriptionTextView.setText(text);
 	}
@@ -195,7 +284,9 @@ public class CameraViewActivity extends Activity implements
 		mMyLongitude = location.getLongitude();
 		mAzimuthTeoretical = calculateTeoreticalAzimuth();
 		int distance = (int) calculateDistance();
-		Toast.makeText(this,"latitude: "+location.getLatitude()+" longitude: "
+
+		// тост с текущей локацией
+		Toast.makeText(this,"Ваша локация latitude: "+location.getLatitude()+" longitude: "
 				+location.getLongitude(), Toast.LENGTH_SHORT).show();
 
 		if (mAzimuthReal == 0){
@@ -207,6 +298,15 @@ public class CameraViewActivity extends Activity implements
 		}
 		updateDescription();
 	}
+
+    //Останавливаем при надобности слушателя ориентации
+    //сенсора с целью сбережения заряда батареи:
+	@Override
+	protected void onPause() {
+		super.onPause();
+		mSensorManager.unregisterListener(this);
+	}
+
 	/*в методе жизненного цикла onStop мы вызываем методы отмены регистрации датчика азимута и
         закрытия подключения к службам Google Play*/
 	@Override
@@ -221,6 +321,9 @@ public class CameraViewActivity extends Activity implements
 		super.onResume();
 		myCurrentAzimuth.start();
 		myCurrentLocation.start();
+		//Устанавливаем слушателя ориентации сенсора
+		mSensorManager.registerListener(this, mSensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION),
+				SensorManager.SENSOR_DELAY_GAME);
 	}
 
 	/*метод setupListeners служит для инициализации слушателей местоположения и азимута - здесь
@@ -236,9 +339,9 @@ public class CameraViewActivity extends Activity implements
 	//метод setupLayout инициализирует все элементы экрана и создает surfaceView для отображения превью камеры
 	private void setupLayout() {
 		descriptionTextView = (TextView) findViewById(R.id.cameraTextView);
-		btnMap = (Button) findViewById(R.id.btnMap);
-		btnMap.setVisibility(View.VISIBLE);
-		btnMap.setOnClickListener(this);
+		icons_map = (ImageView) findViewById(R.id.icons_map);
+		icons_map.setVisibility(View.VISIBLE);
+		icons_map.setOnClickListener(this);
 		getWindow().setFormat(PixelFormat.UNKNOWN);
 		SurfaceView surfaceView = (SurfaceView) findViewById(R.id.cameraview);
 		mSurfaceHolder = surfaceView.getHolder();
@@ -280,10 +383,16 @@ public class CameraViewActivity extends Activity implements
 		mCamera = null;
 		isCameraviewOn = false;
 	}
-	//и последний метод - обработчик нажатия кнопки, здесь по нажатию открываем карту
+	// обработчик нажатия кнопки, здесь по нажатию открываем карту
 	@Override
 	public void onClick(View v) {
-		Intent intent = new Intent(this, MapActivity.class);
-		startActivity(intent);
+		Intent intentToMap = new Intent(this, MapActivity.class);
+/*
+		intentToMap.putExtra("latMarA", TargetLatMarA);
+		intentToMap.putExtra("lngMarA", TargetLngMarA);
+*/
+		startActivity(intentToMap);
 	}
+
+
 }

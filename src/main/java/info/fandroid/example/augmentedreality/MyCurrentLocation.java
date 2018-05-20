@@ -59,6 +59,7 @@ public class MyCurrentLocation implements GoogleApiClient.ConnectionCallbacks,
         LocationServices.FusedLocationApi .requestLocationUpdates( mGoogleApiClient, mLocationRequest , this );
         mLastLocation = LocationServices.FusedLocationApi .getLastLocation(
                 mGoogleApiClient);
+
         if ( mLastLocation != null ) {
             onLocationChangedListener.onLocationChanged( mLastLocation );
         }
@@ -84,6 +85,7 @@ public class MyCurrentLocation implements GoogleApiClient.ConnectionCallbacks,
                 mGoogleApiClient);
         if ( mLastLocation != null ) {
             onLocationChangedListener.onLocationChanged( mLastLocation );
+
         }
     }
 }

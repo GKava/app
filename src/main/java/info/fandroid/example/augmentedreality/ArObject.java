@@ -1,13 +1,13 @@
 package info.fandroid.example.augmentedreality;
 
 // здесь просто набор переменных: имя и координаты, а также геттеры для них.
-public class Pikachu {
+public class ArObject {
 	private String mName;
 	private double mLatitude;
 	private double mLongitude;
-	
-	public Pikachu(String newName,
-				   double newLatitude, double newLongitude) {
+
+	// конструктор класса
+	public ArObject(String newName, double newLatitude, double newLongitude) {
 		this.mName = newName;
         this.mLatitude = newLatitude;
         this.mLongitude = newLongitude;
