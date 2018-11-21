@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "988826759087",
+    "firebase_url": "https://buildingguide-320ae.firebaseio.com",
+    "project_id": "buildingguide-320ae",
+    "storage_bucket": "buildingguide-320ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988826759087:android:95afd48c4fd5a022",
+        "android_client_info": {
+          "package_name": "guide.battleroyale_fortnite.build.buildingguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988826759087-f5lgpcinp8ud6cs2dtmk6gd0uq527qj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "guide.battleroyale_fortnite.build.buildingguide",
+            "certificate_hash": "7ae91f85b3c22d9a9fd4cdebe6f88e07bfc6fed4"
+          }
+        },
+        {
+          "client_id": "988826759087-5e20skda3nolpdtau40a5t93hjo02i2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgLbNiRwJm4bAAvWGenPxy2e8Yut0u8_k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988826759087-5e20skda3nolpdtau40a5t93hjo02i2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988826759087:android:68ea05a4418883e0",
+        "android_client_info": {
+          "package_name": "tomato_ar.battleroyale.fortnite.augmentedreality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988826759087-5e20skda3nolpdtau40a5t93hjo02i2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgLbNiRwJm4bAAvWGenPxy2e8Yut0u8_k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

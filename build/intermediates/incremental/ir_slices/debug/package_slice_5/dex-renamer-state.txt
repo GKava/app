@@ -1,4 +1,4 @@
-#Wed Nov 21 12:52:45 MSK 2018
+#Wed Nov 21 13:44:23 MSK 2018
 base.0=D\:\\copy\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex

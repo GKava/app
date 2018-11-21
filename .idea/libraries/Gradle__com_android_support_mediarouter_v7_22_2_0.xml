@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:mediarouter-v7-22.2.0">
     <CLASSES>
-      <root url="jar://C:/Users/User/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.2.0.aar/0c05a81f6ff277d98bbb1e6e758ff01f/jars/libs/internal_impl-22.2.0.jar!/" />
-      <root url="jar://C:/Users/User/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.2.0.aar/0c05a81f6ff277d98bbb1e6e758ff01f/jars/classes.jar!/" />
-      <root url="file://C:/Users/User/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.2.0.aar/0c05a81f6ff277d98bbb1e6e758ff01f/res" />
+      <root url="jar://C:/Users/User/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.2.0.aar/be428570a8bfd15bdb74da072e1e7b9c/jars/libs/internal_impl-22.2.0.jar!/" />
+      <root url="file://C:/Users/User/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.2.0.aar/be428570a8bfd15bdb74da072e1e7b9c/res" />
+      <root url="jar://C:/Users/User/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.2.0.aar/be428570a8bfd15bdb74da072e1e7b9c/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://C:/Android/Sdk/extras/android/m2repository/com/android/support/mediarouter-v7/22.2.0/mediarouter-v7-22.2.0-javadoc.jar!/" />
