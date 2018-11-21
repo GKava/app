@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hi\\values-hi.xml",
+            "outputFile": "D:\\copy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hi\\values-hi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\values-hi\\values-hi.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "293,407,524,632,742,828",
-                        "endColumns": "113,116,107,109,85,91",
-                        "endOffsets": "402,519,627,737,823,915"
-                    },
-                    "to": {
-                        "startLines": "45,46,47,48,49,50",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "6391,6505,6622,6730,6840,6926",
-                        "endColumns": "113,116,107,109,85,91",
-                        "endOffsets": "6500,6617,6725,6835,6921,7013"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\values-hi\\values-hi.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "291,406,511,618,703,805,927,1036,1138,1236,1346,1446,1561",
-                        "endColumns": "114,104,106,84,101,121,108,101,97,109,99,114,124",
-                        "endOffsets": "401,506,613,698,800,922,1031,1133,1231,1341,1441,1556,1681"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,220,325,432,517,619,741,850,952,1050,1160,1260,1375",
-                        "endColumns": "114,104,106,84,101,121,108,101,97,109,99,114,124",
-                        "endOffsets": "215,320,427,512,614,736,845,947,1045,1155,1255,1370,1495"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-8.1.0.aar\\d686fd0d5969d2b19682176d045a946e\\res\\values-hi\\wallet_strings.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-8.1.0.aar\\f6e7f9454f9be1197850239849d83ef2\\res\\values-hi\\wallet_strings.xml",
                     "from": {
                         "startLines": "5",
                         "startColumns": "4",
@@ -55,7 +21,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\86e96c8c5fb0345d701608b7fc7d2971\\res\\values-hi\\common_strings.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\75bed57139316e63c0782bb0cf3a57ae\\res\\values-hi\\values-hi.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,406,511,618,703,805,927,1036,1138,1236,1346,1446,1561",
+                        "endColumns": "114,104,106,84,101,121,108,101,97,109,99,114,124",
+                        "endOffsets": "401,506,613,698,800,922,1031,1133,1231,1341,1441,1556,1681"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,220,325,432,517,619,741,850,952,1050,1160,1260,1375",
+                        "endColumns": "114,104,106,84,101,121,108,101,97,109,99,114,124",
+                        "endOffsets": "215,320,427,512,614,736,845,947,1045,1155,1255,1370,1495"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\be428570a8bfd15bdb74da072e1e7b9c\\res\\values-hi\\values-hi.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "293,407,524,632,742,828",
+                        "endColumns": "113,116,107,109,85,91",
+                        "endOffsets": "402,519,627,737,823,915"
+                    },
+                    "to": {
+                        "startLines": "45,46,47,48,49,50",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "6391,6505,6622,6730,6840,6926",
+                        "endColumns": "113,116,107,109,85,91",
+                        "endOffsets": "6500,6617,6725,6835,6921,7013"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\917875381bd852b4aadb1cb9a7662906\\res\\values-hi\\common_strings.xml",
                     "from": {
                         "startLines": "5,18,16,30,14,13,12,7,11,9,10,8,24,23,6,22,21,4,3,32,31,25,27,26,28,17,15,20,19,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

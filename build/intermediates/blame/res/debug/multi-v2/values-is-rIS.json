@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is-rIS\\values-is-rIS.xml",
+            "outputFile": "D:\\copy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is-rIS\\values-is-rIS.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\values-is-rIS\\values-is-rIS.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\be428570a8bfd15bdb74da072e1e7b9c\\res\\values-is-rIS\\values-is-rIS.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\values-is-rIS\\values-is-rIS.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,395,492,604,689,790,904,1014,1122,1220,1329,1428,1531",
-                        "endColumns": "99,96,111,84,100,113,109,107,97,108,98,102,117",
-                        "endOffsets": "390,487,599,684,785,899,1009,1117,1215,1324,1423,1526,1644"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,205,302,414,499,600,714,824,932,1030,1139,1238,1341",
-                        "endColumns": "99,96,111,84,100,113,109,107,97,108,98,102,117",
-                        "endOffsets": "200,297,409,494,595,709,819,927,1025,1134,1233,1336,1454"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\86e96c8c5fb0345d701608b7fc7d2971\\res\\values-is-rIS\\common_strings.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\917875381bd852b4aadb1cb9a7662906\\res\\values-is-rIS\\common_strings.xml",
                     "from": {
                         "startLines": "5,18,16,30,14,13,12,7,11,9,10,8,24,23,6,22,21,4,3,32,31,25,27,26,28,17,15,20,19,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "1459,1645,1826,1939,2202,2330,2516,2642,2805,2933,3140,3354,3479,3664,3791,3950,4119,4234,4407,4542,4714,4842,4984,5240,5365,5473,5661,5789,5990,6131",
                         "endColumns": "185,180,112,262,127,185,125,162,127,206,213,124,184,126,158,168,114,172,134,171,127,141,255,124,107,187,127,200,140,92",
                         "endOffsets": "1640,1821,1934,2197,2325,2511,2637,2800,2928,3135,3349,3474,3659,3786,3945,4114,4229,4402,4537,4709,4837,4979,5235,5360,5468,5656,5784,5985,6126,6219"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\75bed57139316e63c0782bb0cf3a57ae\\res\\values-is-rIS\\values-is-rIS.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "295,395,492,604,689,790,904,1014,1122,1220,1329,1428,1531",
+                        "endColumns": "99,96,111,84,100,113,109,107,97,108,98,102,117",
+                        "endOffsets": "390,487,599,684,785,899,1009,1117,1215,1324,1423,1526,1644"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,205,302,414,499,600,714,824,932,1030,1139,1238,1341",
+                        "endColumns": "99,96,111,84,100,113,109,107,97,108,98,102,117",
+                        "endOffsets": "200,297,409,494,595,709,819,927,1025,1134,1233,1336,1454"
                     }
                 }
             ]

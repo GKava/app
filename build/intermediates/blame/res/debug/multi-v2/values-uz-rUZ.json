@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz-rUZ\\values-uz-rUZ.xml",
+            "outputFile": "D:\\copy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz-rUZ\\values-uz-rUZ.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\86e96c8c5fb0345d701608b7fc7d2971\\res\\values-uz-rUZ\\common_strings.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\917875381bd852b4aadb1cb9a7662906\\res\\values-uz-rUZ\\common_strings.xml",
                     "from": {
                         "startLines": "5,18,16,30,14,13,12,7,11,9,10,8,24,23,6,22,21,4,3,32,31,25,27,26,28,17,15,20,19,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,400,504,621,707,818,934,1043,1150,1249,1357,1462",
-                        "endColumns": "104,103,116,85,110,115,108,106,98,107,104,104",
-                        "endOffsets": "395,499,616,702,813,929,1038,1145,1244,1352,1457,1562"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,314,431,517,628,744,853,960,1059,1167,1272",
-                        "endColumns": "104,103,116,85,110,115,108,106,98,107,104,104",
-                        "endOffsets": "205,309,426,512,623,739,848,955,1054,1162,1267,1372"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\be428570a8bfd15bdb74da072e1e7b9c\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "6348,6462,6576,6681,6781,6866",
                         "endColumns": "113,113,104,99,84,96",
                         "endOffsets": "6457,6571,6676,6776,6861,6958"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\75bed57139316e63c0782bb0cf3a57ae\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "295,400,504,621,707,818,934,1043,1150,1249,1357,1462",
+                        "endColumns": "104,103,116,85,110,115,108,106,98,107,104,104",
+                        "endOffsets": "395,499,616,702,813,929,1038,1145,1244,1352,1457,1562"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,314,431,517,628,744,853,960,1059,1167,1272",
+                        "endColumns": "104,103,116,85,110,115,108,106,98,107,104,104",
+                        "endOffsets": "205,309,426,512,623,739,848,955,1054,1162,1267,1372"
                     }
                 }
             ]

@@ -1,44 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
+            "outputFile": "D:\\copy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-8.1.0.aar\\d686fd0d5969d2b19682176d045a946e\\res\\values-nl\\wallet_strings.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\75bed57139316e63c0782bb0cf3a57ae\\res\\values-nl\\values-nl.xml",
                     "from": {
-                        "startLines": "5",
-                        "startColumns": "4",
-                        "startOffsets": "230",
-                        "endColumns": "105",
-                        "endOffsets": "331"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,409,514,621,707,815,935,1046,1150,1249,1364,1477,1580",
+                        "endColumns": "117,104,106,85,107,119,110,103,98,114,112,102,117",
+                        "endOffsets": "404,509,616,702,810,930,1041,1145,1244,1359,1472,1575,1693"
                     },
                     "to": {
-                        "startLines": "51",
-                        "startColumns": "4",
-                        "startOffsets": "7070",
-                        "endColumns": "105",
-                        "endOffsets": "7171"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,223,328,435,521,629,749,860,964,1063,1178,1291,1394",
+                        "endColumns": "117,104,106,85,107,119,110,103,98,114,112,102,117",
+                        "endOffsets": "218,323,430,516,624,744,855,959,1058,1173,1286,1389,1507"
                     }
                 },
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\values-nl\\values-nl.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "293,407,521,638,753,840",
-                        "endColumns": "113,113,116,114,86,95",
-                        "endOffsets": "402,516,633,748,835,931"
-                    },
-                    "to": {
-                        "startLines": "45,46,47,48,49,50",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "6427,6541,6655,6772,6887,6974",
-                        "endColumns": "113,113,116,114,86,95",
-                        "endOffsets": "6536,6650,6767,6882,6969,7065"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\86e96c8c5fb0345d701608b7fc7d2971\\res\\values-nl\\common_strings.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\917875381bd852b4aadb1cb9a7662906\\res\\values-nl\\common_strings.xml",
                     "from": {
                         "startLines": "5,18,16,30,14,13,12,7,11,9,10,8,24,23,6,22,21,4,3,32,31,25,27,26,28,17,15,20,19,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,20 +38,37 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\values-nl\\values-nl.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-8.1.0.aar\\f6e7f9454f9be1197850239849d83ef2\\res\\values-nl\\wallet_strings.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "291,409,514,621,707,815,935,1046,1150,1249,1364,1477,1580",
-                        "endColumns": "117,104,106,85,107,119,110,103,98,114,112,102,117",
-                        "endOffsets": "404,509,616,702,810,930,1041,1145,1244,1359,1472,1575,1693"
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "230",
+                        "endColumns": "105",
+                        "endOffsets": "331"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,223,328,435,521,629,749,860,964,1063,1178,1291,1394",
-                        "endColumns": "117,104,106,85,107,119,110,103,98,114,112,102,117",
-                        "endOffsets": "218,323,430,516,624,744,855,959,1058,1173,1286,1389,1507"
+                        "startLines": "51",
+                        "startColumns": "4",
+                        "startOffsets": "7070",
+                        "endColumns": "105",
+                        "endOffsets": "7171"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\be428570a8bfd15bdb74da072e1e7b9c\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "293,407,521,638,753,840",
+                        "endColumns": "113,113,116,114,86,95",
+                        "endOffsets": "402,516,633,748,835,931"
+                    },
+                    "to": {
+                        "startLines": "45,46,47,48,49,50",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "6427,6541,6655,6772,6887,6974",
+                        "endColumns": "113,113,116,114,86,95",
+                        "endOffsets": "6536,6650,6767,6882,6969,7065"
                     }
                 }
             ]

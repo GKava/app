@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te-rIN\\values-te-rIN.xml",
+            "outputFile": "D:\\copy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te-rIN\\values-te-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\values-te-rIN\\values-te-rIN.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\75bed57139316e63c0782bb0cf3a57ae\\res\\values-te-rIN\\values-te-rIN.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "297,415,532,645,757,844",
-                        "endColumns": "117,116,112,111,86,94",
-                        "endOffsets": "410,527,640,752,839,934"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "295,409,518,629,719,824,949,1062,1170,1270,1381,1483,1600",
+                        "endColumns": "113,108,110,89,104,124,112,107,99,110,101,116,126",
+                        "endOffsets": "404,513,624,714,819,944,1057,1165,1265,1376,1478,1595,1722"
                     },
                     "to": {
-                        "startLines": "45,46,47,48,49,50",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "6267,6385,6502,6615,6727,6814",
-                        "endColumns": "117,116,112,111,86,94",
-                        "endOffsets": "6380,6497,6610,6722,6809,6904"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,328,439,529,634,759,872,980,1080,1191,1293,1410",
+                        "endColumns": "113,108,110,89,104,124,112,107,99,110,101,116,126",
+                        "endOffsets": "214,323,434,524,629,754,867,975,1075,1186,1288,1405,1532"
                     }
                 },
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\86e96c8c5fb0345d701608b7fc7d2971\\res\\values-te-rIN\\common_strings.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\917875381bd852b4aadb1cb9a7662906\\res\\values-te-rIN\\common_strings.xml",
                     "from": {
                         "startLines": "5,18,16,30,14,13,12,7,11,9,10,8,24,23,6,22,21,4,3,32,31,25,27,26,28,17,15,20,19,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\values-te-rIN\\values-te-rIN.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\be428570a8bfd15bdb74da072e1e7b9c\\res\\values-te-rIN\\values-te-rIN.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,409,518,629,719,824,949,1062,1170,1270,1381,1483,1600",
-                        "endColumns": "113,108,110,89,104,124,112,107,99,110,101,116,126",
-                        "endOffsets": "404,513,624,714,819,944,1057,1165,1265,1376,1478,1595,1722"
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "297,415,532,645,757,844",
+                        "endColumns": "117,116,112,111,86,94",
+                        "endOffsets": "410,527,640,752,839,934"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,328,439,529,634,759,872,980,1080,1191,1293,1410",
-                        "endColumns": "113,108,110,89,104,124,112,107,99,110,101,116,126",
-                        "endOffsets": "214,323,434,524,629,754,867,975,1075,1186,1288,1405,1532"
+                        "startLines": "45,46,47,48,49,50",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "6267,6385,6502,6615,6727,6814",
+                        "endColumns": "117,116,112,111,86,94",
+                        "endOffsets": "6380,6497,6610,6722,6809,6904"
                     }
                 }
             ]

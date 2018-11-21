@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo-rLA\\values-lo-rLA.xml",
+            "outputFile": "D:\\copy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo-rLA\\values-lo-rLA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\be428570a8bfd15bdb74da072e1e7b9c\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,398,495,602,687,792,904,1011,1108,1206,1311,1414,1518",
-                        "endColumns": "102,96,106,84,104,111,106,96,97,104,102,103,121",
-                        "endOffsets": "393,490,597,682,787,899,1006,1103,1201,1306,1409,1513,1635"
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "297,411,523,629,739,824",
+                        "endColumns": "113,111,105,109,84,93",
+                        "endOffsets": "406,518,624,734,819,913"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,208,305,412,497,602,714,821,918,1016,1121,1224,1328",
-                        "endColumns": "102,96,106,84,104,111,106,96,97,104,102,103,121",
-                        "endOffsets": "203,300,407,492,597,709,816,913,1011,1116,1219,1323,1445"
+                        "startLines": "45,46,47,48,49,50",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "6368,6482,6594,6700,6810,6895",
+                        "endColumns": "113,111,105,109,84,93",
+                        "endOffsets": "6477,6589,6695,6805,6890,6984"
                     }
                 },
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\86e96c8c5fb0345d701608b7fc7d2971\\res\\values-lo-rLA\\common_strings.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\917875381bd852b4aadb1cb9a7662906\\res\\values-lo-rLA\\common_strings.xml",
                     "from": {
                         "startLines": "5,18,16,30,14,13,12,7,11,9,10,8,24,23,6,22,21,4,3,32,31,25,27,26,28,17,15,20,19,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\75bed57139316e63c0782bb0cf3a57ae\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "297,411,523,629,739,824",
-                        "endColumns": "113,111,105,109,84,93",
-                        "endOffsets": "406,518,624,734,819,913"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "295,398,495,602,687,792,904,1011,1108,1206,1311,1414,1518",
+                        "endColumns": "102,96,106,84,104,111,106,96,97,104,102,103,121",
+                        "endOffsets": "393,490,597,682,787,899,1006,1103,1201,1306,1409,1513,1635"
                     },
                     "to": {
-                        "startLines": "45,46,47,48,49,50",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "6368,6482,6594,6700,6810,6895",
-                        "endColumns": "113,111,105,109,84,93",
-                        "endOffsets": "6477,6589,6695,6805,6890,6984"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,305,412,497,602,714,821,918,1016,1121,1224,1328",
+                        "endColumns": "102,96,106,84,104,111,106,96,97,104,102,103,121",
+                        "endOffsets": "203,300,407,492,597,709,816,913,1011,1116,1219,1323,1445"
                     }
                 }
             ]

@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et-rEE\\values-et-rEE.xml",
+            "outputFile": "D:\\copy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et-rEE\\values-et-rEE.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\values-et-rEE\\values-et-rEE.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\75bed57139316e63c0782bb0cf3a57ae\\res\\values-et-rEE\\values-et-rEE.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "295,412,519,630,716,818,935,1046,1151,1250,1360,1461,1564",
+                        "endColumns": "116,106,110,85,101,116,110,104,98,109,100,102,127",
+                        "endOffsets": "407,514,625,711,813,930,1041,1146,1245,1355,1456,1559,1687"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,222,329,440,526,628,745,856,961,1060,1170,1271,1374",
+                        "endColumns": "116,106,110,85,101,116,110,104,98,109,100,102,127",
+                        "endOffsets": "217,324,435,521,623,740,851,956,1055,1165,1266,1369,1497"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\be428570a8bfd15bdb74da072e1e7b9c\\res\\values-et-rEE\\values-et-rEE.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\86e96c8c5fb0345d701608b7fc7d2971\\res\\values-et-rEE\\common_strings.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.1.0.aar\\917875381bd852b4aadb1cb9a7662906\\res\\values-et-rEE\\common_strings.xml",
                     "from": {
                         "startLines": "5,18,16,30,14,13,12,7,11,9,10,8,24,23,6,22,21,4,3,32,31,25,27,26,28,17,15,20,19,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "1502,1696,1889,2017,2292,2420,2614,2740,2912,3042,3259,3480,3607,3776,3895,4068,4244,4361,4543,4676,4847,4980,5120,5366,5491,5601,5796,5929,6143,6280",
                         "endColumns": "193,192,127,274,127,193,125,171,129,216,220,126,168,118,172,175,116,181,132,170,132,139,245,124,109,194,132,213,136,91",
                         "endOffsets": "1691,1884,2012,2287,2415,2609,2735,2907,3037,3254,3475,3602,3771,3890,4063,4239,4356,4538,4671,4842,4975,5115,5361,5486,5596,5791,5924,6138,6275,6367"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\values-et-rEE\\values-et-rEE.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,412,519,630,716,818,935,1046,1151,1250,1360,1461,1564",
-                        "endColumns": "116,106,110,85,101,116,110,104,98,109,100,102,127",
-                        "endOffsets": "407,514,625,711,813,930,1041,1146,1245,1355,1456,1559,1687"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,222,329,440,526,628,745,856,961,1060,1170,1271,1374",
-                        "endColumns": "116,106,110,85,101,116,110,104,98,109,100,102,127",
-                        "endOffsets": "217,324,435,521,623,740,851,956,1055,1165,1266,1369,1497"
                     }
                 }
             ]

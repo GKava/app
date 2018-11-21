@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_strelka.png.flat",
-        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\strelka.png"
-    },
-    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_media_route_off_mono_dark.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\drawable-mdpi\\ic_media_route_off_mono_dark.png"
     },
@@ -16,12 +12,12 @@
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\416265f636c260f3896e3f429b99becd\\res\\drawable-xhdpi\\common_signin_btn_icon_pressed_dark.9.png"
     },
     {
-        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_arrow.jpg.flat",
-        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable-xhdpi\\arrow.jpg"
-    },
-    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_cast_disabled_light.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\drawable-mdpi\\ic_cast_disabled_light.png"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_arrow.jpg.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable-xhdpi\\arrow.jpg"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\color_abc_primary_text_disable_only_material_light.xml.flat",
@@ -32,12 +28,12 @@
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-8.1.0.aar\\1391cce66c6981425c30d00a11c773df\\res\\drawable-xxhdpi\\cast_ic_notification_1.png"
     },
     {
-        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_common_signin_btn_text_disabled_dark.9.png.flat",
-        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\416265f636c260f3896e3f429b99becd\\res\\drawable-hdpi\\common_signin_btn_text_disabled_dark.9.png"
-    },
-    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_common_signin_btn_text_disabled_dark.9.png.flat",
+        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\416265f636c260f3896e3f429b99becd\\res\\drawable-hdpi\\common_signin_btn_text_disabled_dark.9.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\color_switch_thumb_material_dark.xml.flat",
@@ -84,32 +80,32 @@
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_item_background_holo_dark.xml.flat",
-        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_common_signin_btn_icon_pressed_light.9.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\416265f636c260f3896e3f429b99becd\\res\\drawable-xhdpi\\common_signin_btn_icon_pressed_light.9.png"
     },
     {
-        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_cast_on_2_light.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\drawable-xhdpi\\ic_cast_on_2_light.png"
     },
     {
-        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_common_signin_btn_icon_normal_light.9.png.flat",
-        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\416265f636c260f3896e3f429b99becd\\res\\drawable-xhdpi\\common_signin_btn_icon_normal_light.9.png"
-    },
-    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-xxhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_common_signin_btn_icon_normal_light.9.png.flat",
+        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\416265f636c260f3896e3f429b99becd\\res\\drawable-xhdpi\\common_signin_btn_icon_normal_light.9.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_screen_toolbar.xml.flat",
@@ -160,12 +156,12 @@
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-xxhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_cast_dark.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\drawable-xxhdpi\\ic_cast_dark.png"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-xxhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_common_signin_btn_icon_disabled_focus_dark.9.png.flat",
@@ -202,6 +198,10 @@
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_common_signin_btn_icon_disabled_focus_light.9.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\416265f636c260f3896e3f429b99becd\\res\\drawable-xhdpi\\common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_icons_camera.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\icons_camera.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\color-v11_abc_background_cache_hint_selector_material_dark.xml.flat",
@@ -260,12 +260,12 @@
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-ldrtl-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_common_signin_btn_icon_pressed_light.9.png.flat",
-        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\416265f636c260f3896e3f429b99becd\\res\\drawable-xxhdpi\\common_signin_btn_icon_pressed_light.9.png"
-    },
-    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\color_abc_primary_text_material_light.xml.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_common_signin_btn_icon_pressed_light.9.png.flat",
+        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\416265f636c260f3896e3f429b99becd\\res\\drawable-xxhdpi\\common_signin_btn_icon_pressed_light.9.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
@@ -302,6 +302,10 @@
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_item_background_holo_light.xml.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_way.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\way.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_powered_by_google_light.png.flat",
@@ -436,12 +440,12 @@
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\anim_abc_slide_in_bottom.xml.flat",
-        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_signin_btn_icon_dark.xml.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\416265f636c260f3896e3f429b99becd\\res\\drawable\\common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\anim_abc_slide_in_bottom.xml.flat",
+        "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_media_route_on_mono_dark.png.flat",
@@ -512,8 +516,16 @@
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-xxxhdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_crystal.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\crystal.png"
+    },
+    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_abc_btn_rating_star_on_mtrl_alpha.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_romb1.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\romb1.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -626,10 +638,6 @@
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_cast_disabled_light.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\drawable-xxhdpi\\ic_cast_disabled_light.png"
-    },
-    {
-        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_pikachu.png.flat",
-        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\pikachu.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -1176,6 +1184,10 @@
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_clean.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\clean.png"
+    },
+    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
     },
@@ -1310,6 +1322,10 @@
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_cast_ic_notification_0.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-8.1.0.aar\\1391cce66c6981425c30d00a11c773df\\res\\drawable-xxhdpi\\cast_ic_notification_0.png"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_cam.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\cam.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1684,12 +1700,20 @@
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-xxhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_romb2.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\romb2.png"
+    },
+    {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_cast_ic_notification_1.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-8.1.0.aar\\1391cce66c6981425c30d00a11c773df\\res\\drawable-mdpi\\cast_ic_notification_1.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_mr_ic_media_route_mono_dark.xml.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-22.2.0.aar\\9fd19d5e36241aef87e5bf139f0a190f\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_romb.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\romb.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1726,6 +1750,10 @@
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_powered_by_google_light.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-location-8.1.0.aar\\996706a59e9db9f3ce8a1bfacd78ff0d\\res\\drawable-mdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_romb3.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\romb3.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi_ic_plusone_small_off_client.png.flat",
@@ -1834,6 +1862,10 @@
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_romb5.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\romb5.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_setting_light.png.flat",
@@ -2066,6 +2098,10 @@
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\EVGA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\fcb4fdcbcdcee4aed25377bb78d00ada\\res\\drawable-xhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable_romb4.png.flat",
+        "source": "D:\\ANDROID PROJECT\\app\\src\\main\\res\\drawable\\romb4.png"
     },
     {
         "merged": "D:\\ANDROID PROJECT\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_cast_ic_notification_1.png.flat",

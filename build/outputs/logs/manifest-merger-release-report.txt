@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-8.1.0.aar\a850646aefe70931fc35d4c550d5c776\AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-cast:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.1.0.aar\1391cce66c6981425c30d00a11c773df\AndroidManifest.xml:16:1-20:12
 MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-22.2.0.aar\9fd19d5e36241aef87e5bf139f0a190f\AndroidManifest.xml:17:1-24:12
@@ -31,9 +31,9 @@ MERGED from [com.google.android.gms:play-services-wearable:8.1.0] C:\Users\EVGA\
 MERGED from [com.google.android.gms:play-services-base:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-base-8.1.0.aar\416265f636c260f3896e3f429b99becd\AndroidManifest.xml:16:1-19:12
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.1.0.aar\86e96c8c5fb0345d701608b7fc7d2971\AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-v4:22.2.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.0.aar\ff1ae067ae02bb2c3e848de32e9aecd6\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:3:5-53
 		INJECTED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml
@@ -165,21 +165,21 @@ ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:16:5-98
 	android:name
 		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:16:22-95
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:18:5-81
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:17:5-81
 MERGED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.1.0.aar\25c8458ebb0c9ddd9016b1176865888f\AndroidManifest.xml:22:5-80
 MERGED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.1.0.aar\25c8458ebb0c9ddd9016b1176865888f\AndroidManifest.xml:22:5-80
 	android:name
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:18:22-78
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:17:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:19:5-75
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:18:5-75
 	android:name
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:19:22-72
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:18:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:20:5-80
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:19:5-80
 	android:name
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:20:22-77
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:19:22-77
 application
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:22:5-49:19
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:21:5-48:19
 MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-8.1.0.aar\a850646aefe70931fc35d4c550d5c776\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-8.1.0.aar\a850646aefe70931fc35d4c550d5c776\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-cast:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.1.0.aar\1391cce66c6981425c30d00a11c773df\AndroidManifest.xml:19:5-20
@@ -231,53 +231,53 @@ MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\EVGA\
 MERGED from [com.android.support:support-v4:22.2.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.0.aar\ff1ae067ae02bb2c3e848de32e9aecd6\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.2.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.0.aar\ff1ae067ae02bb2c3e848de32e9aecd6\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:25:9-41
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:24:9-41
 	android:icon
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:24:9-45
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:23:9-45
 	android:allowBackup
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:26:9-53
-activity#info.fandroid.example.augmentedreality.CameraViewActivity
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:27:9-35:20
-	android:label
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:29:13-63
-	android:name
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:28:13-85
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:30:13-34:29
-action#android.intent.action.MAIN
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:31:17-69
-	android:name
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:31:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:33:17-77
-	android:name
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:25:9-53
 activity#info.fandroid.example.augmentedreality.MapActivity
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:36:9-40:20
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:26:9-34:20
+	android:label
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:28:13-63
 	android:name
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:36:19-84
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:27:13-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:32:27-74
+activity#info.fandroid.example.augmentedreality.CameraViewActivity
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:35:9-39:20
+	android:name
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:35:19-91
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:37:13-39:93
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:36:13-38:93
 	android:value
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:39:17-90
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:38:17-90
 	android:name
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:38:17-63
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:37:17-63
 meta-data#com.google.android.gms.version
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:42:9-44:69
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:41:9-43:69
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.1.0.aar\86e96c8c5fb0345d701608b7fc7d2971\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.1.0.aar\86e96c8c5fb0345d701608b7fc7d2971\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:44:13-66
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:43:13-66
 	android:name
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:43:13-58
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:42:13-58
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:45:9-47:71
+ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:44:9-46:71
 	android:value
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:47:13-68
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:46:13-68
 	android:name
-		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:46:13-62
+		ADDED from D:\ANDROID PROJECT\app\src\main\AndroidManifest.xml:45:13-62
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\EVGA\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.1.0.aar\b5874767a0ac7d192ba983aab9e0dbe1\AndroidManifest.xml:24:5-67
 	android:name

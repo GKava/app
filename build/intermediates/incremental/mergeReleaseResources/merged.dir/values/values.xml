@@ -297,6 +297,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accept">Accept</string>
     <string name="app_name">AR Navigator</string>
+    <string name="ar_obj">Crystal: </string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="cast_notification_connected_message">Connected to <ns1:g id="name">%1$s</ns1:g></string>
@@ -350,10 +351,11 @@
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
     <string name="p_description">Pokemon</string>
-    <string name="p_name">Pikachu</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
+    <string name="t_clear">Нельзя удалить маршрут!</string>
+    <string name="t_marsh">Проложите маршрут!</string>
     <string name="title_activity_camera_view">AR Navigator</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>

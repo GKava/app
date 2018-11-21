@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package info.fandroid.example.augmentedreality;
+package tomato_ar.battleroyale.example.augmentedreality;
 
 public final class BuildConfig {
   public static final boolean DEBUG = false;
