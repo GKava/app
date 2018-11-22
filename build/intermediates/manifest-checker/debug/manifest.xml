@@ -42,6 +42,7 @@
         android:theme="@style/Theme.AppCompat.Light" >
         <activity
             android:name="tomato_ar.battleroyale.fortnite.augmentedreality.CameraViewActivity"
+            android:hardwareAccelerated="false"
             android:label="@string/title_activity_camera_view" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

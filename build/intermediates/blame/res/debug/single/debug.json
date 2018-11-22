@@ -560,6 +560,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\75bed57139316e63c0782bb0cf3a57ae\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "D:\\copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mlgif.gif.flat",
+        "source": "D:\\copy\\app\\src\\main\\res\\drawable\\mlgif.gif"
+    },
+    {
         "merged": "D:\\copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\75bed57139316e63c0782bb0cf3a57ae\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
@@ -1248,12 +1252,12 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.1.0.aar\\7817e610480e4b040d292e820d434f69\\res\\drawable-xhdpi\\common_signin_btn_text_pressed_light.9.png"
     },
     {
-        "merged": "D:\\copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tomato.png.flat",
-        "source": "D:\\copy\\app\\src\\main\\res\\drawable\\tomato.png"
-    },
-    {
         "merged": "D:\\copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher.png.flat",
         "source": "D:\\copy\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tomato.png.flat",
+        "source": "D:\\copy\\app\\src\\main\\res\\drawable\\tomato.png"
     },
     {
         "merged": "D:\\copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pause_dark.png.flat",

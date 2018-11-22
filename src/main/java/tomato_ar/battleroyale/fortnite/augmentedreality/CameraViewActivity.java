@@ -17,6 +17,9 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 import java.io.IOException;
+import java.io.InputStream;
+
+import pl.droidsonroids.gif.GifImageView;
 import tomato_ar.battleroyale.example.augmentedreality.R;
 
 
@@ -29,6 +32,8 @@ public class CameraViewActivity extends Activity implements SurfaceHolder.Callba
 	private AdView mAdView;
 	Button tomato;
 	Button beef;
+	GifImageView gifka;
+	boolean lol;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -37,6 +42,9 @@ public class CameraViewActivity extends Activity implements SurfaceHolder.Callba
 		image_action = findViewById(R.id.image_action);
 		tomato = findViewById(R.id.tomato);
 		beef = findViewById(R.id.beef);
+        gifka = findViewById(R.id.gifka);
+		tomato.setOnClickListener(this);
+		beef.setOnClickListener(this);
 
 		mAdView = findViewById(R.id.adView);
 		AdRequest adRequest = new AdRequest.Builder().build();
@@ -51,12 +59,14 @@ public class CameraViewActivity extends Activity implements SurfaceHolder.Callba
 	public void onClick(View v) {
 switch (v.getId()){
 	case R.id.tomato:
-
+		lol=false;
 		image_action.setVisibility(ProgressBar.VISIBLE);
-
+		gifka.setVisibility(View.INVISIBLE);
 		break;
 	case R.id.beef:
-
+		lol=true;
+        gifka.setVisibility(View.VISIBLE);
+		image_action.setVisibility(ProgressBar.INVISIBLE);
 		break;
 }
 	}
@@ -67,17 +77,35 @@ switch (v.getId()){
 	public boolean onTouchEvent(MotionEvent event) {
 		switch (event.getAction()) {
 			case MotionEvent.ACTION_UP: // отпускание
-				image_action.setVisibility(ProgressBar.INVISIBLE);
+				if (lol==false) {
+					image_action.setVisibility(ProgressBar.INVISIBLE);
+				}
+				if (lol==true) {
+					gifka.setVisibility(View.INVISIBLE);
+				}
 				break;
 			case MotionEvent.ACTION_DOWN:
 				float x = event.getX();
 				float y = event.getY();
+				if (lol==false) {
 				image_action.setX(x-200);
 				image_action.setY(y-250);
 				image_action.setVisibility(ProgressBar.VISIBLE);
+				}
+				if (lol==true) {
+					gifka.setX(x-200);
+					gifka.setY(y-250);
+					gifka.setVisibility(GifImageView.VISIBLE);
+				}
 				break;
+
 			case MotionEvent.ACTION_MOVE:
-				image_action.setVisibility(ProgressBar.INVISIBLE);
+				if (lol==false) {
+					image_action.setVisibility(ProgressBar.INVISIBLE);
+				}
+				if (lol==true) {
+					gifka.setVisibility(GifImageView.INVISIBLE);
+				}
 				break;
 
 		}

@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\copy\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from D:\copy\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-8.1.0.aar\85ee4b5891bea7c376e003857b28aae1\AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-cast:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.1.0.aar\2c2a43691b107f3e6edbcc9e325bce40\AndroidManifest.xml:16:1-20:12
 MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-22.2.0.aar\be428570a8bfd15bdb74da072e1e7b9c\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.0.aar\75bed57139316e63c0782bb0cf3a57ae\AndroidManifest.xml:17:1-24:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.1.17] C:\Users\User\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.1.17.aar\1fbb9c2d8f9a64330ace91c6a5b27ddb\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.1.0.aar\725a0f70f9d1cc65a3d560d81ee5bdfb\AndroidManifest.xml:16:1-47:12
 MERGED from [com.google.android.gms:play-services-analytics:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.1.0.aar\2a6edd064e7ed15d6924f2a2246e7003\AndroidManifest.xml:16:1-25:12
 MERGED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.1.0.aar\333555eff421d152de55f6a0cb86082c\AndroidManifest.xml:16:1-33:12
@@ -31,9 +32,9 @@ MERGED from [com.google.android.gms:play-services-wearable:8.1.0] C:\Users\User\
 MERGED from [com.google.android.gms:play-services-base:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-base-8.1.0.aar\7817e610480e4b040d292e820d434f69\AndroidManifest.xml:16:1-19:12
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.1.0.aar\917875381bd852b4aadb1cb9a7662906\AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-v4:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.0.aar\3a9c4d093aa9656d81b08a6337cae535\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\copy\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from D:\copy\app\src\main\AndroidManifest.xml:3:5-62
 		INJECTED from D:\copy\app\src\main\AndroidManifest.xml
@@ -85,7 +86,7 @@ MERGED from [com.google.android.gms:play-services-nearby:8.1.0] C:\Users\User\.g
 	android:name
 		ADDED from D:\copy\app\src\main\AndroidManifest.xml:13:22-76
 application
-ADDED from D:\copy\app\src\main\AndroidManifest.xml:21:5-43:19
+ADDED from D:\copy\app\src\main\AndroidManifest.xml:21:5-44:19
 MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-8.1.0.aar\85ee4b5891bea7c376e003857b28aae1\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-8.1.0.aar\85ee4b5891bea7c376e003857b28aae1\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-cast:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.1.0.aar\2c2a43691b107f3e6edbcc9e325bce40\AndroidManifest.xml:19:5-20
@@ -145,21 +146,23 @@ MERGED from [com.android.support:support-v4:22.2.0] C:\Users\User\.gradle\caches
 	android:theme
 		ADDED from D:\copy\app\src\main\AndroidManifest.xml:25:9-53
 activity#tomato_ar.battleroyale.fortnite.augmentedreality.CameraViewActivity
-ADDED from D:\copy\app\src\main\AndroidManifest.xml:26:9-34:20
+ADDED from D:\copy\app\src\main\AndroidManifest.xml:26:9-35:20
 	android:label
-		ADDED from D:\copy\app\src\main\AndroidManifest.xml:28:13-63
+		ADDED from D:\copy\app\src\main\AndroidManifest.xml:29:13-63
+	android:hardwareAccelerated
+		ADDED from D:\copy\app\src\main\AndroidManifest.xml:27:13-48
 	android:name
-		ADDED from D:\copy\app\src\main\AndroidManifest.xml:27:13-95
+		ADDED from D:\copy\app\src\main\AndroidManifest.xml:28:13-95
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\copy\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from D:\copy\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from D:\copy\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from D:\copy\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from D:\copy\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from D:\copy\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\copy\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from D:\copy\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from D:\copy\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from D:\copy\app\src\main\AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from D:\copy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\copy\app\src\main\AndroidManifest.xml
@@ -172,6 +175,8 @@ MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\User\.gradle\ca
 MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-22.2.0.aar\be428570a8bfd15bdb74da072e1e7b9c\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.0.aar\75bed57139316e63c0782bb0cf3a57ae\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.0.aar\75bed57139316e63c0782bb0cf3a57ae\AndroidManifest.xml:20:5-43
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.1.17] C:\Users\User\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.1.17.aar\1fbb9c2d8f9a64330ace91c6a5b27ddb\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.1.17] C:\Users\User\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.1.17.aar\1fbb9c2d8f9a64330ace91c6a5b27ddb\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.1.0.aar\725a0f70f9d1cc65a3d560d81ee5bdfb\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.1.0.aar\725a0f70f9d1cc65a3d560d81ee5bdfb\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-analytics:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.1.0.aar\2a6edd064e7ed15d6924f2a2246e7003\AndroidManifest.xml:18:5-42
@@ -297,7 +302,7 @@ ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\User\.grad
 	android:required
 		ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.1.0.aar\145f9bd64a25cd99c1ede917aa17d85a\AndroidManifest.xml:25:8-31
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\copy\app\src\main\AndroidManifest.xml:2:1-45:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\copy\app\src\main\AndroidManifest.xml:2:1-46:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.1.0.aar\917875381bd852b4aadb1cb9a7662906\AndroidManifest.xml:21:9-23:69
 	android:value
